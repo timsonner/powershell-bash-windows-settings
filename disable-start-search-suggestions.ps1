@@ -1,0 +1,2 @@
+﻿New-Item HKCU:\SOFTWARE\Policies\Microsoft\Windows -Name Explorer
+New-ItemProperty HKCU:\SOFTWARE\Policies\Microsoft\Windows\Explorer -Name "DisableSearchBoxSuggestions" -Value 1 -PropertyType DWORD -Force
